@@ -132,14 +132,14 @@
 
                         
                         <li>
-                            <a href="/about/">About</a>
+                            <a href="/archive/">Archives</a>
                         </li>
                         
                     
 
                         
                         <li>
-                            <a href="/archive/">Archives</a>
+                            <a href="/about/">我</a>
                         </li>
                         
                     
@@ -196,40 +196,12 @@
             <!-- 标签云 -->
             <div id='tag_cloud' class="tags">
                 
-                    <a href="#随笔" title="随笔" rel="1">随笔</a>
-                
                     <a href="#Hexo" title="Hexo" rel="1">Hexo</a>
                 
             </div>
 
             <!-- 标签列表 -->
 
-            
-            <div class="one-tag-list">
-                <span class="fa fa-tag listing-seperator" id="随笔">
-                    <span class="tag-text">随笔</span>
-                </span>
-                
-                  <!-- <li class="listing-item">
-                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-                  </li> -->
-                 <div class="post-preview">
-                     <a href="/article/[随笔]Hello-World/">
-                        <h2 class="post-title">
-                            Hello World!
-                        </h2>
-                        
-                            <h3 class="post-subtitle">
-                                开启一段新的旅程
-                            </h3>
-                        
-                    </a>
-                    <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-                </div>
-                <hr>
-                
-            </div>
             
             <div class="one-tag-list">
                 <span class="fa fa-tag listing-seperator" id="Hexo">
@@ -273,6 +245,15 @@
                 <ul class="list-inline text-center">
                 
                 
+                
+                    <li>
+                        <a target="_blank" href="https://www.zhihu.com/people/jayzhou2468">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa  fa-stack-1x fa-inverse">知</i>
+                            </span>
+                        </a>
+                    </li>
                 
 
                 
@@ -433,6 +414,12 @@
 <!-- Image to hack wechat -->
 <img src="http://www.ryanlovescoding.cn/img/icon_wechat.png" width="0" height="0" />
 <!-- Migrate from head to bottom, no longer block render and still work -->
+
+
+{% if theme.canvas_nest %}
+<script type="text/javascript" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
+{% endif %}
+
 
 </body>
 

@@ -132,14 +132,14 @@
 
                         
                         <li>
-                            <a href="/about/">About</a>
+                            <a href="/archive/">Archives</a>
                         </li>
                         
                     
 
                         
                         <li>
-                            <a href="/archive/">Archives</a>
+                            <a href="/about/">我</a>
                         </li>
                         
                     
@@ -219,6 +219,15 @@
                 <ul class="list-inline text-center">
                 
                 
+                
+                    <li>
+                        <a target="_blank" href="https://www.zhihu.com/people/jayzhou2468">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa  fa-stack-1x fa-inverse">知</i>
+                            </span>
+                        </a>
+                    </li>
                 
 
                 
@@ -379,6 +388,12 @@
 <!-- Image to hack wechat -->
 <img src="http://www.ryanlovescoding.cn/img/icon_wechat.png" width="0" height="0" />
 <!-- Migrate from head to bottom, no longer block render and still work -->
+
+
+{% if theme.canvas_nest %}
+<script type="text/javascript" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
+{% endif %}
+
 
 </body>
 
