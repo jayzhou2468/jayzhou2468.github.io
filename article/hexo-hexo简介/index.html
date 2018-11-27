@@ -14,11 +14,11 @@
     <script async defer src="https://buttons.github.io/buttons.js"></script>
     <title>
         
-          Hello World! - Ryan | Blog
+          [Hexo] Theme Ryan - Ryan | Blog
         
     </title>
 
-    <link rel="canonical" href="http://www.ryanlovescoding.cn/article/Hello-World/">
+    <link rel="canonical" href="http://www.ryanlovescoding.cn/article/hexo-hexo简介/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -69,7 +69,7 @@
 <style type="text/css">
     header.intro-header{
         
-            background-image: url('/img/article_header/HelloWorld.png')
+            background-image: url('/img/article_header/article_header.png')
             /*post*/
         
     }
@@ -86,14 +86,14 @@
                     <div class="post-heading">
                         <div class="tags">
                             
-                              <a class="tag" href="/tags/#随笔" title="随笔">随笔</a>
+                              <a class="tag" href="/tags/#Hexo" title="Hexo">Hexo</a>
                             
                         </div>
-                        <h1>Hello World!</h1>
-                        <h2 class="subheading">开启一段新的旅程</h2>
+                        <h1>[Hexo] Theme Ryan</h1>
+                        <h2 class="subheading">This is hexo theme Demo.</h2>
                         <span class="meta">
                             Posted by Ryan on
-                            2018-11-27
+                            2018-11-25
                         </span>
                     </div>
                 
@@ -211,20 +211,57 @@
                 post-container">
 
                 <blockquote>
-<p><a href="http://xn--Ryanwww-es2l45co1swwke15a2m8b.ryanlovescoding.xn--cnjayzhou2468-4r9z.github.io" target="_blank" rel="noopener">Ryan的博客域名是www.ryanlovescoding.cn或jayzhou2468.github.io</a><a href="www.ryanlovescoding.vn">Ryan</a>，域名已和博客关联。</p>
+<p>This Ryan theme created by <a href="http://www.HuWeiHuang.com/" target="_blank" rel="noopener">HuWeiHuang</a> modified from the original Porter <a href="https://github.com/YenYuHsuan/hexo-theme-beantech" target="_blank" rel="noopener">YuHsuan</a></p>
 </blockquote>
-<h1 id="终于实现了这个小愿望">终于实现了这个小愿望</h1>
-<p>记得大二时候，就一直想做一个属于自己的网站，任自己随意发挥，记录一些生活的点滴。无奈当时水平捉鸡，并不懂什么GitHub用来做啥，网站也没有现在这么精美和便捷，只想自己一行一行的敲html、css、js，做出来的不用多说，要多丑有多丑。又过一年，自身素质提高了，无奈备战考研，搭建网站的事便搁置了。直到研一已过去两个月有余，心想没有一个自己的网站实在说不过去啊。埋头摸索两天，终于搭建起来个人博客，心情也是有点鸡冻。</p>
-<h1 id="试着来写几行代码">试着来写几行代码</h1>
-<p>Install Node.js and Git</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash">For Mac</span></span><br><span class="line">brew install node</span><br><span class="line">brew install git</span><br></pre></td></tr></table></figure>
+<h1 id="live-demo">Live Demo</h1>
+<p><img src="http://ozilwgpje.bkt.clouddn.com/blog.jpg" alt="Theme Ryan"></p>
+<h1 id="install-hexo">Install Hexo</h1>
+<p>Install Node.js  and Git</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span>For Mac</span><br><span class="line">brew install node</span><br><span class="line">brew install git</span><br></pre></td></tr></table></figure>
 <p>Install hexo</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash">For more:https://hexo.io/zh-cn/index.html</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span>For more:https://hexo.io/zh-cn/index.html</span><br></pre></td></tr></table></figure>
+<h1 id="theme-usage">Theme Usage</h1>
+<h2 id="init">Init</h2>
+<hr>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/HuWeiHuang/hexo-theme-HuWeiHuang.git ./hexo-HuWeiHuang</span><br><span class="line"><span class="built_in">cd</span> hexo-HuWeiHuang</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
+<h2 id="modify">Modify</h2>
+<hr>
+<p>Modify <code>_config.yml</code> file with your own info.<br>
+Especially the section:</p>
+<h3 id="deployment">Deployment</h3>
+<p>Replace to your own repo!</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line"><span class="attr">  type:</span> <span class="string">git</span></span><br><span class="line"><span class="attr">  repo:</span> <span class="attr">https://github.com/&lt;yourAccount&gt;/&lt;repo&gt;</span></span><br><span class="line"><span class="attr">  branch:</span> <span class="string">&lt;your-branch&gt;</span></span><br></pre></td></tr></table></figure>
+<h3 id="sidebar-settings">Sidebar settings</h3>
+<p>Copy your avatar image to <code>&lt;root&gt;/img/</code> and modify the <code>_config.yml</code>:</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">sidebar:</span> <span class="literal">true</span>    <span class="comment"># whether or not using Sidebar.</span></span><br><span class="line"><span class="attr">sidebar-about-description:</span> <span class="string">"&lt;your description&gt;"</span></span><br><span class="line"><span class="attr">sidebar-avatar:</span> <span class="string">img/&lt;your</span> <span class="string">avatar</span> <span class="string">path&gt;</span></span><br></pre></td></tr></table></figure>
 <p>and activate your personal widget you like</p>
 <figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">widgets:</span>         <span class="comment"># here are widget you can use, you can comment out</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">featured-tags</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">short-about</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">recent-posts</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">friends-blog</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">archive</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">category</span></span><br></pre></td></tr></table></figure>
-<h2 id="看起来还不错-日积月累是个过程慢慢记录下一点一滴还是很棒的">看起来还不错。日积月累是个过程，慢慢记录下一点一滴，还是很棒的。</h2>
-<h1 id="每天都要加油鸭">每天都要加油鸭！</h1>
-<p><img src="/img/article/jiayou.png" alt="jiayou"></p>
+<p>if you want to add sidebar widget, please add at <code>layout/_widget</code>.</p>
+<h3 id="signature-setup">Signature Setup</h3>
+<p>Copy your signature image to <code>&lt;root&gt;/img/signature</code> and modify the <code>_config.yml</code>:</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">signature:</span> <span class="literal">true</span>   <span class="comment"># show signature</span></span><br><span class="line"><span class="attr">signature-img:</span> <span class="string">img/signature/&lt;your-signature-ID&gt;</span></span><br></pre></td></tr></table></figure>
+<h3 id="go-to-top-icon-setup">Go to top icon Setup</h3>
+<p>My icon is using iron man, you can change to your own icon at <code>css/image</code>.</p>
+<h3 id="post-tag">Post tag</h3>
+<p>You can decide to show post tags or not.</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">home_posts_tag:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+<p><img src="/img/article/tag.png" alt="home_posts_tag-true"></p>
+<h3 id="markdown-render">Markdown render</h3>
+<p>My markdown render engine plugin is <a href="https://github.com/celsomiranda/hexo-renderer-markdown-it" target="_blank" rel="noopener">hexo-renderer-markdown-it</a>.</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Markdown-it config</span></span><br><span class="line"><span class="comment">## Docs: https://github.com/celsomiranda/hexo-renderer-markdown-it/wiki</span></span><br><span class="line"><span class="attr">markdown:</span></span><br><span class="line"><span class="attr">  render:</span></span><br><span class="line"><span class="attr">    html:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">    xhtmlOut:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">    breaks:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">    linkify:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">    typographer:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">    quotes:</span> <span class="string">'“”‘’'</span></span><br></pre></td></tr></table></figure>
+<p>and if you want to change the header anchor ‘ℬ’, you can go to <code>layout/post.ejs</code> to change it.</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">async</span>(<span class="string">"https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js"</span>,<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">        anchors.options = &#123;</span><br><span class="line">          visible: <span class="string">'hover'</span>,</span><br><span class="line">          placement: <span class="string">'left'</span>,</span><br><span class="line">          icon: ℬ <span class="comment">// this is the header anchor "unicode" icon</span></span><br><span class="line">        &#125;;</span><br></pre></td></tr></table></figure>
+<h2 id="hexo-basics">Hexo Basics</h2>
+<hr>
+<p>Some hexo command:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo new post <span class="string">"&lt;post name&gt;"</span> <span class="comment"># you can change post to another layout if you want</span></span><br><span class="line">hexo clean &amp;&amp; hexo generate <span class="comment"># generate the static file</span></span><br><span class="line">hexo server <span class="comment"># run hexo in local environment</span></span><br><span class="line">hexo deploy <span class="comment"># hexo will push the static files automatically into the specific branch(gh-pages) of your repo!</span></span><br></pre></td></tr></table></figure>
+<h1 id="have-fun-_">Have fun ^_^</h1>
+<hr>
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+<!-- Place this tag where you want the button to render. -->
+<p>Please <a class="github-button" href="https://github.com/HuWeiHuang/hexo-theme-HuWeiHuang" data-icon="octicon-star" aria-label="Star HuWeiHuang/hexo-theme-HuWeiHuang on GitHub" target="_blank" rel="noopener">Star</a> this Project if you like it! <a class="github-button" href="https://github.com/HuWeiHuang" aria-label="Follow @HuWeiHuang on GitHub" target="_blank" rel="noopener">Follow</a> would also be appreciated!<br>
+Peace!</p>
 
                 
 
@@ -232,10 +269,10 @@
                 <!-- Pager -->
                 <ul class="pager">
                     
-                    
-                        <li class="next">
-                            <a href="/article/hexo-hexo简介/" data-toggle="tooltip" data-placement="top" title="[Hexo] Theme Ryan">Next Post &rarr;</a>
+                        <li class="previous">
+                            <a href="/article/Hello-World/" data-toggle="tooltip" data-placement="top" title="Hello World!">&larr; Previous Post</a>
                         </li>
+                    
                     
                 </ul>
 
@@ -269,7 +306,7 @@
         <div id="toc" class="toc-article">
         <strong class="toc-title">Contents</strong>
         
-          <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link" href="#终于实现了这个小愿望"><span class="toc-nav-number">1.</span> <span class="toc-nav-text">&#x7EC8;&#x4E8E;&#x5B9E;&#x73B0;&#x4E86;&#x8FD9;&#x4E2A;&#x5C0F;&#x613F;&#x671B;</span></a></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link" href="#试着来写几行代码"><span class="toc-nav-number">2.</span> <span class="toc-nav-text">&#x8BD5;&#x7740;&#x6765;&#x5199;&#x51E0;&#x884C;&#x4EE3;&#x7801;</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#看起来还不错-日积月累是个过程慢慢记录下一点一滴还是很棒的"><span class="toc-nav-number">2.1.</span> <span class="toc-nav-text">&#x770B;&#x8D77;&#x6765;&#x8FD8;&#x4E0D;&#x9519;&#x3002;&#x65E5;&#x79EF;&#x6708;&#x7D2F;&#x662F;&#x4E2A;&#x8FC7;&#x7A0B;&#xFF0C;&#x6162;&#x6162;&#x8BB0;&#x5F55;&#x4E0B;&#x4E00;&#x70B9;&#x4E00;&#x6EF4;&#xFF0C;&#x8FD8;&#x662F;&#x5F88;&#x68D2;&#x7684;&#x3002;</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link" href="#每天都要加油鸭"><span class="toc-nav-number">3.</span> <span class="toc-nav-text">&#x6BCF;&#x5929;&#x90FD;&#x8981;&#x52A0;&#x6CB9;&#x9E2D;&#xFF01;</span></a></li></ol>
+          <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link" href="#live-demo"><span class="toc-nav-number">1.</span> <span class="toc-nav-text">Live Demo</span></a></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link" href="#install-hexo"><span class="toc-nav-number">2.</span> <span class="toc-nav-text">Install Hexo</span></a></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link" href="#theme-usage"><span class="toc-nav-number">3.</span> <span class="toc-nav-text">Theme Usage</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#init"><span class="toc-nav-number">3.1.</span> <span class="toc-nav-text">Init</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#modify"><span class="toc-nav-number">3.2.</span> <span class="toc-nav-text">Modify</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#deployment"><span class="toc-nav-number">3.2.1.</span> <span class="toc-nav-text">Deployment</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#sidebar-settings"><span class="toc-nav-number">3.2.2.</span> <span class="toc-nav-text">Sidebar settings</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#signature-setup"><span class="toc-nav-number">3.2.3.</span> <span class="toc-nav-text">Signature Setup</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#go-to-top-icon-setup"><span class="toc-nav-number">3.2.4.</span> <span class="toc-nav-text">Go to top icon Setup</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#post-tag"><span class="toc-nav-number">3.2.5.</span> <span class="toc-nav-text">Post tag</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#markdown-render"><span class="toc-nav-number">3.2.6.</span> <span class="toc-nav-text">Markdown render</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#hexo-basics"><span class="toc-nav-number">3.3.</span> <span class="toc-nav-text">Hexo Basics</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link" href="#have-fun-_"><span class="toc-nav-number">4.</span> <span class="toc-nav-text">Have fun ^_^</span></a></li></ol>
         
         </div>
       </aside>
@@ -289,7 +326,7 @@
                     <h5><a href="/tags/">FEATURED TAGS</a></h5>
                     <div class="tags">
                        
-                          <a class="tag" href="/tags/#随笔" title="随笔">随笔</a>
+                          <a class="tag" href="/tags/#Hexo" title="Hexo">Hexo</a>
                         
                     </div>
                 </section>

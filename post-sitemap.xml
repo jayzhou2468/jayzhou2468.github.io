@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://www.huweihuang.com</loc>
+        <loc>http://www.ryanlovescoding.cn</loc>
         <changefreq>daily</changefreq>
         <priority>1</priority>
     </url>
 
     <url>
-        <loc>http://www.huweihuang.com/article/Hello-World/</loc>
-        <lastmod>2018-11-27T12:12:38.869Z</lastmod>
+        <loc>http://www.ryanlovescoding.cn/article/hexo-hexo%E7%AE%80%E4%BB%8B/</loc>
+        <lastmod>2018-11-27T12:51:39.073Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://www.ryanlovescoding.cn/article/Hello-World/</loc>
+        <lastmod>2018-11-27T12:49:37.188Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
