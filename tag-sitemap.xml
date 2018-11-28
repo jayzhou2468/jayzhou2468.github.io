@@ -2,13 +2,6 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>http://www.ryanlovescoding.cn/tags/Hexo/</loc>
-        <lastmod>2018-11-27T12:51:39.073Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://www.ryanlovescoding.cn/tags/%E9%9A%8F%E7%AC%94/</loc>
         <lastmod>2018-11-28T02:46:12.527Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -17,7 +10,14 @@
 
     <url>
         <loc>http://www.ryanlovescoding.cn/tags/%E7%88%AC%E8%99%AB/</loc>
-        <lastmod>2018-11-28T08:24:32.404Z</lastmod>
+        <lastmod>2018-11-28T08:35:10.900Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://www.ryanlovescoding.cn/tags/Hexo/</loc>
+        <lastmod>2018-11-28T08:44:17.819Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
