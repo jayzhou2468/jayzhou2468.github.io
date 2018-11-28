@@ -21,14 +21,14 @@
     </url>
     
     <url>
-        <loc>http://www.ryanlovescoding.cn/archive/</loc>
+        <loc>http://www.ryanlovescoding.cn/tags/</loc>
         <lastmod>2018-10-22T04:29:25.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>http://www.ryanlovescoding.cn/tags/</loc>
+        <loc>http://www.ryanlovescoding.cn/archive/</loc>
         <lastmod>2018-10-22T04:29:25.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
