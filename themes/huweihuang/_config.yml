@@ -1,0 +1,25 @@
+
+# Code Highlight theme
+# Available value:
+#    normal | night | night yilia | night eighties | night blue | night bright
+# https://github.com/chriskempson/tomorrow-theme
+# night yilia - https://github.com/litten/hexo-theme-yilia
+highlight_theme: night eighties
+
+# Canvas-nest
+canvas_nest: true
+
+# Post wordcount display settings 
+# Dependencies: https://github.com/willin/hexo-wordcount 
+post_wordcount: 
+  item_text: true 
+  wordcount: true 
+  min2read: true
+
+
+# Show number of visitors to each article.
+# You can visit https://leancloud.cn get AppID and AppKey.
+leancloud_visitors:
+  enable: true
+  app_id: 7nTPASdP5dC3UVHw6DuC5NcO-gzGzoHsz
+  app_key: GkExHYJMJXWV5R1pXoYtt0Vh
