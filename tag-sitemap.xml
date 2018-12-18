@@ -16,13 +16,6 @@
     </url>
 
     <url>
-        <loc>http://www.ryanlovescoding.cn/tags/python/</loc>
-        <lastmod>2018-12-03T13:52:35.703Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://www.ryanlovescoding.cn/tags/%E7%88%AC%E8%99%AB/</loc>
         <lastmod>2018-12-11T06:51:55.446Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -37,8 +30,8 @@
     </url>
 
     <url>
-        <loc>http://www.ryanlovescoding.cn/tags/Python/</loc>
-        <lastmod>2018-12-18T03:59:08.629Z</lastmod>
+        <loc>http://www.ryanlovescoding.cn/tags/python/</loc>
+        <lastmod>2018-12-18T04:04:25.718Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
