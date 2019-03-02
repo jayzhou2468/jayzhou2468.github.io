@@ -2,13 +2,6 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>http://wangzeyuan.fun/tags/%E9%9A%8F%E7%AC%94/</loc>
-        <lastmod>2018-11-28T02:46:12.527Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://wangzeyuan.fun/tags/Hexo/</loc>
         <lastmod>2018-11-28T08:44:17.819Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -32,6 +25,13 @@
     <url>
         <loc>http://wangzeyuan.fun/tags/%E7%A0%94%E7%A9%B6%E7%94%9F%E8%B5%84%E6%96%99/</loc>
         <lastmod>2019-02-22T07:05:59.229Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://wangzeyuan.fun/tags/%E9%9A%8F%E7%AC%94/</loc>
+        <lastmod>2019-03-02T13:47:40.491Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
